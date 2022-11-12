@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+:root {
+  --font1: "Karla", sans-serif;
+}
+.box-p {
+  padding: 14px 20px 14px 20px;
+  font-family: var(--font1);
+}
+.m-y {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color1 {
+  color: hsl(179, 62%, 43%);
+}
+.color2 {
+  color: hsl(71, 73%, 54%);
+}
+.btn {
+  padding: 10px 100px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.btn-shadow {
+  box-shadow: 11px 13px 8px hsl(179deg 66% 32%);
+}
+.btn:hover {
+  background-color: hsl(71, 67%, 50%);
+  cursor: pointer;
+}
+.inline {
+  display: inline;
+}
